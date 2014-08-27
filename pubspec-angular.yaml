@@ -1,0 +1,10 @@
+name: app
+version: 0.0.1
+dependencies:
+  angular: 0.13.0
+  browser: any
+transformers:
+- angular
+- $dart2js:
+    minify: false
+    checked: false
