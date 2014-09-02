@@ -4,7 +4,6 @@ dependencies:
   angular: 0.13.0
   browser: any
 transformers:
-- angular
 - $dart2js:
     minify: true
     checked: false
